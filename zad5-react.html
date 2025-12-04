@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>strona4</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body{
+            margin:0;
+        }
+        .ligth{
+            background-color:white;
+            color:black;
+            height:100vh;
+        }
+        .dark{
+            background-color:black;
+            color:white;
+            height:100vh;
+        }
+        button {
+            background-color:blue;
+            font-size:25px;
+        }
+    </style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type = "text/babel">
+    const { useState } = React;
+
+    function Swiatlo(params) {
+        const [czy_jasno, setCzy_jasno] = useState(true);
+        const [ilosc,setIlosc] = useState(0);
+        const [imie,setImie] = useState("");
+
+        function handleChange(e) {
+            setImie(e.target.value);
+        }
+
+        function przelacz() {
+            setCzy_jasno(!czy_jasno);
+        }
+
+        function ile() {
+            setIlosc(ilosc+1);
+        }
+
+        return (
+            <div className={ czy_jasno ? "ligth" : "dark" } >
+                <input type="text" placeholder="Podaj imie:" onChange={handleChange}/>
+                <button onClick= {()=>{
+                    przelacz();
+                    if (czy_jasno) ile();
+                }}>
+                    {czy_jasno ? "wlacz" : "wylacz"}
+                </button>
+                <h3>{ilosc}</h3>
+                <h4>operatorem swiatla jest {imie} </h4>
+            </div>
+        )
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Swiatlo/>);
+</script>
+
+
+
+</body>
+</html>
