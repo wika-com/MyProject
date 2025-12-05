@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30226a48-889e-44ca-938a-079de8fa7d14" name="Changes" comment="ok">
-      <change afterPath="$PROJECT_DIR$/../MyProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyProject/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyProject/.idea/MyProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyProject/zad5-react.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyProject/zad5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/zad5-react.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProject/zad5-react.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyProject/zad5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProject/zad5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="c427f297-6e19-42ac-b6c0-0f0099e871a2" name="Changes by filip" comment="">
+      <change beforePath="$PROJECT_DIR$/../MyProject/zad5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyProject/zad5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../MyProject" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -41,6 +40,24 @@
     "accountId": "0513f4f8-6a9c-485f-87ca-fc3b30db1c00"
   }
 }]]></component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/../MyProject/zad5.html">
+      <ranges>
+        <range start1="18" end1="18" start2="18" end2="28" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="21" end1="21" start2="31" end2="37" changelist="c427f297-6e19-42ac-b6c0-0f0099e871a2" />
+        <range start1="23" end1="25" start2="39" end2="41" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="28" end1="29" start2="44" end2="45" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="31" end1="31" start2="47" end2="49" changelist="c427f297-6e19-42ac-b6c0-0f0099e871a2" />
+        <range start1="32" end1="32" start2="50" end2="51" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="34" end1="34" start2="53" end2="72" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="37" end1="38" start2="75" end2="76" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="41" end1="41" start2="79" end2="80" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="43" end1="44" start2="82" end2="83" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="46" end1="46" start2="85" end2="87" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="49" end1="49" start2="90" end2="91" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -85,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764754461986</updated>
-      <workItem from="1764754462786" duration="9197000" />
+      <workItem from="1764754462786" duration="16319000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <option name="closed" value="true" />
@@ -95,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764865575314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ok">
+      <option name="closed" value="true" />
+      <created>1764866455323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764866455323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
