@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>strona4</title>
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
@@ -23,6 +24,14 @@
             background-color:blue;
             font-size:25px;
         }
+        #przalacznik {
+            border: red;
+
+        }
+        #przelacznik button{
+            background-color: red;
+            font-size:25px;
+        }
     </style>
 </head>
 <body>
@@ -35,6 +44,18 @@
         const [czy_jasno, setCzy_jasno] = useState(true);
         const [ilosc,setIlosc] = useState(0);
         const [imie,setImie] = useState("");
+        const [czy_bezpiecznik,setCzy_bezpiecznik] = useState(true);
+        const [status,setStatus] = useState("włączony");
+
+        function bezpieczniki() {
+            setCzy_bezpiecznik(!czy_bezpiecznik);
+            if (czy_bezpiecznik) {
+                setCzy_jasno(false);
+                setStatus("wyłączone")
+            } else {
+                setStatus("włączone")
+            }
+        }
 
         function handleChange(e) {
             setImie(e.target.value);
@@ -50,16 +71,22 @@
 
         return (
             <div className={ czy_jasno ? "ligth" : "dark" } >
+                <h4>operatorem swiatla jest {imie} </h4>
+                <div className="przelacznik">
+                    <h3>Status prądu:<small>{status}</small></h3>
+                    <button className="przelacz" onClick={bezpieczniki}>Przełącz bezpiecznik</button>
+                </div>
                 <input type="text" placeholder="Podaj imie:" onChange={handleChange}/>
                 <button onClick= {()=>{
                     przelacz();
                     if (czy_jasno) ile();
-                }}>
+                }} disabled={!czy_bezpiecznik}>
                     {czy_jasno ? "wlacz" : "wylacz"}
                 </button>
-                <h3>{ilosc}</h3>
-                <h4>operatorem swiatla jest {imie} </h4>
+                <h3 style={{fontSize: "40px"}}>{ilosc}</h3>
+
             </div>
+
         )
     }
     ReactDOM.createRoot(document.getElementById("root")).render(<Swiatlo/>);

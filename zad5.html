@@ -16,37 +16,71 @@
             background-color:blue;
             font-size:25px;
         }
+        #przalacznik {
+            border: red;
+
+        }
+        #przelacznik button{
+            background-color: red;
+            font-size:25px;
+        }
+
+
     </style>
 </head>
 <body class="ligth" id="pokoj">
 <input id="name" type="text" placeholder="Podaj imie:">
 <button onclick="wlacz()" id="wylacz">Wyłącz światło</button>
-<h3 id="ilosc">0</h3>
-<h4 id="komunikat"></h4>
+<h3 id="ilosc" style="font-size:40px;">0</h3>
+
 
 <script>
     let czy_jasno = true;
-    const przycisk = document.getElementById("wylacz");
+    const przycisk_swi = document.getElementById("wylacz");
     const pokoj = document.getElementById("pokoj");
     const ilosc = document.getElementById("ilosc");
     let liczba = 0;
+    let czy_bezpieczniki = true;
 
 
+    function bezpieczniki() {
+        console.log("f bezpieczniki");
+        if (czy_bezpieczniki) {
+            czy_bezpieczniki=false;
+            pokoj.className = "dark";
+            czy_jasno = false;
+            status.innerText = "włączone";
+            console.log("f bezpieczniki:true");
+            przycisk_swi.disabled = false;
+
+        } else {
+            czy_bezpieczniki=true
+            pokoj.className = "dark";
+            czy_jasno = false;
+            przycisk_swi.disabled = true;
+            status.innerText = "wyłączone"
+            console.log("f bezpieczniki:false");
+        }
+    }
     function wlacz() {
         if (!czy_jasno) {
             pokoj.className = "light";
-            przycisk.innerText = "Wyłącz swiatlo";
+            przycisk_swi.innerText = "Wyłącz swiatlo";
             czy_jasno=true;
             liczba=liczba+1;
             ilosc.innerText=liczba;
+
         } else {
             pokoj.className = "dark";
-            przycisk.innerText = "Włącz swiatlo";
+            przycisk_swi.innerText = "Włącz swiatlo";
             czy_jasno = false;
         }
+
+
         const info = document.getElementById("komunikat");
         let operator = document.getElementById("name").value;
         info.innerText = "Operatorem swiatla jest " + operator;
+
     }
 
 
