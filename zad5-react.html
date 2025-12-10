@@ -78,10 +78,10 @@
                 </div>
                 <input type="text" placeholder="Podaj imie:" onChange={handleChange}/>
                 <button onClick= {()=>{
-                    przelacz();
-                    if (czy_jasno) ile();
-                }} disabled={!czy_bezpiecznik}>
-                    {czy_jasno ? "wlacz" : "wylacz"}
+                            przelacz();
+                            if (czy_jasno) ile();
+                        }} disabled={!czy_bezpiecznik}>
+                 {czy_jasno ? "wlacz" : "wylacz"}
                 </button>
                 <h3 style={{fontSize: "40px"}}>{ilosc}</h3>
             </div>

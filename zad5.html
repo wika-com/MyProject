@@ -68,6 +68,14 @@
     let liczba = 0;
     let czy_bezpieczniki = true;
 
+    function dodaj_log(tresc_komunikatu) {
+        const data = new Date();
+        const data_text = data.toLocaleTimeString();
+        const new_record = document.createElement("li");
+        new_record.innerHTML = `<span class="godzina">[${data_text}]</span> <span class="user">${user.value}: </span> <span class="komunikat">${tresc_komunikatu}</span>`
+        lista.appendChild(new_record);
+    }
+
 
     function bezpieczniki() {
         console.log("f bezpieczniki");
