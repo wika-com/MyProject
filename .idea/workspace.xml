@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30226a48-889e-44ca-938a-079de8fa7d14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zad5-react.html" beforeDir="false" afterPath="$PROJECT_DIR$/zad5-react.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zad5.html" beforeDir="false" afterPath="$PROJECT_DIR$/zad5.html" afterDir="false" />
-    </list>
-    <list id="bd0250c9-f126-4380-a950-3ca5dfe8bd82" name="Changes by filip" comment="">
-      <change beforePath="$PROJECT_DIR$/zad5-react.html" beforeDir="false" afterPath="$PROJECT_DIR$/zad5-react.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zad5.html" beforeDir="false" afterPath="$PROJECT_DIR$/zad5.html" afterDir="false" />
-    </list>
+    <list default="true" id="30226a48-889e-44ca-938a-079de8fa7d14" name="Changes" comment="ok" />
+    <list id="bd0250c9-f126-4380-a950-3ca5dfe8bd82" name="Changes by filip" comment="Changes by filip" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,28 +33,6 @@
     &quot;accountId&quot;: &quot;0513f4f8-6a9c-485f-87ca-fc3b30db1c00&quot;
   }
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/zad5-react.html">
-      <ranges>
-        <range start1="53" end1="54" start2="53" end2="54" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-        <range start1="55" end1="56" start2="55" end2="56" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-        <range start1="80" end1="84" start2="80" end2="84" changelist="bd0250c9-f126-4380-a950-3ca5dfe8bd82" />
-        <range start1="86" end1="87" start2="86" end2="86" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/zad5.html">
-      <ranges>
-        <range start1="26" end1="26" start2="26" end2="36" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-        <range start1="41" end1="41" start2="51" end2="58" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-        <range start1="48" end1="49" start2="65" end2="67" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-        <range start1="51" end1="51" start2="69" end2="78" changelist="bd0250c9-f126-4380-a950-3ca5dfe8bd82" />
-        <range start1="62" end1="62" start2="89" end2="90" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-        <range start1="70" end1="70" start2="98" end2="99" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-        <range start1="79" end1="79" start2="108" end2="109" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-        <range start1="84" end1="84" start2="114" end2="115" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -107,8 +78,25 @@
       <option name="presentableId" value="Default" />
       <updated>1764754461986</updated>
       <workItem from="1764754462786" duration="8426000" />
-      <workItem from="1765358837053" duration="11684000" />
+      <workItem from="1765358837053" duration="12088000" />
     </task>
+    <task id="LOCAL-00001" summary="ok">
+      <option name="closed" value="true" />
+      <created>1765408150250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765408150250</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changes by filip">
+      <option name="closed" value="true" />
+      <created>1765408168258</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765408168258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,5 +122,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <MESSAGE value="Changes by filip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by filip" />
   </component>
 </project>
