@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30226a48-889e-44ca-938a-079de8fa7d14" name="Changes" comment="ok" />
+    <list default="true" id="30226a48-889e-44ca-938a-079de8fa7d14" name="Changes" comment="ok">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="bd0250c9-f126-4380-a950-3ca5dfe8bd82" name="Changes by filip" comment="Changes by filip" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,9 @@
     &quot;accountId&quot;: &quot;0513f4f8-6a9c-485f-87ca-fc3b30db1c00&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -78,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764754461986</updated>
       <workItem from="1764754462786" duration="8426000" />
-      <workItem from="1765358837053" duration="12088000" />
+      <workItem from="1765358837053" duration="12392000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <option name="closed" value="true" />
@@ -96,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765408168258</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ok">
+      <option name="closed" value="true" />
+      <created>1765408195095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765408195095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,8 +137,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ok" />
     <MESSAGE value="Changes by filip" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by filip" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
 </project>
