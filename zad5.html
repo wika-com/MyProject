@@ -24,6 +24,16 @@
             background-color: red;
             font-size:25px;
         }
+        .godzina {
+            color: darkgray;
+        }
+        .user {
+            color: #ded326;
+        }
+
+        .komunikat {
+            color: greenyellow;
+        }
 
 
     </style>
@@ -39,6 +49,13 @@
 <button onclick="wlacz()" id="wylacz">Wyłącz światło</button>
 <h3 id="ilosc" style="font-size:40px;">0</h3>
 
+<div id="system" class="dark">
+    <h3>> SYSTEM LOGS:</h3>
+    <ul id="lista">
+        <li><span class="godzina">[11:02:34]</span> <span class="user">Ola</span></li>
+    </ul>
+</div>
+
 
 <script>
     let czy_jasno = true;
@@ -46,7 +63,8 @@
     const pokoj = document.getElementById("pokoj");
     const ilosc = document.getElementById("ilosc");
     const status = document.getElementById("status");
-
+    const lista = document.getElementById("lista");
+    const user = document.getElementById("name")
     let liczba = 0;
     let czy_bezpieczniki = true;
 
@@ -60,6 +78,7 @@
             status.innerText = "włączone";
             console.log("f bezpieczniki:true");
             przycisk_swi.disabled = false;
+            dodaj_log("Przywrócił zasilanie");
 
         } else {
             czy_bezpieczniki=true
@@ -68,6 +87,7 @@
             przycisk_swi.disabled = true;
             status.innerText = "wyłączone"
             console.log("f bezpieczniki:false");
+            dodaj_log("Odciął zasilanie");
         }
     }
     function wlacz() {
@@ -77,11 +97,13 @@
             czy_jasno=true;
             liczba=liczba+1;
             ilosc.innerText=liczba;
+            dodaj_log("Włączył/a światło");
 
         } else {
             pokoj.className = "dark";
             przycisk_swi.innerText = "Włącz swiatlo";
             czy_jasno = false;
+            dodaj_log("Wyłączył/a światło");
         }
 
 

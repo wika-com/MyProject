@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="30226a48-889e-44ca-938a-079de8fa7d14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zad5-react.html" beforeDir="false" afterPath="$PROJECT_DIR$/zad5-react.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zad5.html" beforeDir="false" afterPath="$PROJECT_DIR$/zad5.html" afterDir="false" />
+    </list>
+    <list id="bd0250c9-f126-4380-a950-3ca5dfe8bd82" name="Changes by filip" comment="">
+      <change beforePath="$PROJECT_DIR$/zad5-react.html" beforeDir="false" afterPath="$PROJECT_DIR$/zad5-react.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zad5.html" beforeDir="false" afterPath="$PROJECT_DIR$/zad5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +28,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "wika-com"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wika-com&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/wika-com/MyProject.git",
-    "accountId": "0513f4f8-6a9c-485f-87ca-fc3b30db1c00"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wika-com/MyProject.git&quot;,
+    &quot;accountId&quot;: &quot;0513f4f8-6a9c-485f-87ca-fc3b30db1c00&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/zad5-react.html">
+      <ranges>
+        <range start1="53" end1="54" start2="53" end2="54" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="55" end1="56" start2="55" end2="56" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="80" end1="84" start2="80" end2="84" changelist="bd0250c9-f126-4380-a950-3ca5dfe8bd82" />
+        <range start1="86" end1="87" start2="86" end2="86" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/zad5.html">
+      <ranges>
+        <range start1="26" end1="26" start2="26" end2="36" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="41" end1="41" start2="51" end2="58" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="48" end1="49" start2="65" end2="67" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="51" end1="51" start2="69" end2="78" changelist="bd0250c9-f126-4380-a950-3ca5dfe8bd82" />
+        <range start1="62" end1="62" start2="89" end2="90" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="70" end1="70" start2="98" end2="99" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="79" end1="79" start2="108" end2="109" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+        <range start1="84" end1="84" start2="114" end2="115" changelist="30226a48-889e-44ca-938a-079de8fa7d14" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="36KTrH00qJCSv1d8gojdJNaNPd6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,9 +75,13 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/User/WebstormProjects/MyProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764754461986</updated>
       <workItem from="1764754462786" duration="8426000" />
+      <workItem from="1765358837053" duration="11684000" />
     </task>
     <servers />
   </component>
@@ -82,9 +115,19 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="bec626c5-1340-4c2e-b3da-8da5f345cbbf" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="bec626c5-1340-4c2e-b3da-8da5f345cbbf">
           <value>
             <State />
           </value>
